@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina principal</title>
+    <style>
+       * {
+            box-sizing: border-box;
+       }
+
+       html, body {
+            background-color: rgb(46, 46, 46);
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+        }
+
+        #caja-fondo {
+            width: 50vw;
+            height: 100vh;
+            background-image: url(imagenes/itace_pared.jpeg);
+            background-size: cover;
+            background-position: center;
+        }
+
+        #caja-texto {
+            padding: 40px;
+            width: 50vw;
+            min-height: 100vh;
+            background-color: #5b2e2e;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            font-family: Impact, sans-serif;
+            font-size: 2rem;
+        }
+
+        .blanco { color: white; }
+        .rojo { color: rgba(255, 0, 0, 0.6); }
+
+        .btn-comenzar {
+            padding: 20px 40px; 
+            font-size: 1.2rem; 
+            border-radius: 8px; 
+            background-color: rgba(255, 0, 0, 0.6); 
+            box-shadow: 0 15px 15px rgba(0, 0, 0, 0.2); 
+            border: 4px solid black;
+            color: white;
+            cursor: pointer;
+            transition: transform 0.2s, background-color 0.2s;
+        }
+
+        .btn-comenzar:hover {
+            transform: scale(1.05);
+            background-color: rgba(255, 0, 0, 0.773);
+        }
+
+        /* Adaptabilidad para Móviles y Tablets */
+        @media (max-width: 900px) {
+            html, body {
+                flex-direction: column-reverse;
+                height: auto;
+            }
+
+            #caja-texto, #caja-fondo {
+                width: 100%;
+                min-height: 50vh;
+            }
+
+            #caja-fondo {
+                height: 35vh;
+            }
+
+            #caja-texto {
+                padding: 30px 20px;
+            }
+
+            .btn-comenzar {
+                padding: 15px 30px;
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="caja-texto">
+        <h1 style="-webkit-text-stroke: 1.5px black; margin-top: 0;">
+            <span class="blanco">Recorrido por el</span> <span class="rojo">ITACE</span>
+        </h1>
+        <p style="color:#EEEEED; font-family: sans-serif; font-size: 1.1rem; line-height: 1.5;">
+            Demos un paseo por las instalaciones<br>que capacitan a los estudiantes para el empleo
+        </p>
+        <input type="button" class="btn-comenzar" value="Adelante" onclick="window.location.href='itace principal.html'">
+    </div>
+
+    <div id="caja-fondo"></div>
+
+</body>
+</html>
