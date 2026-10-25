@@ -503,12 +503,11 @@ footer {
     height: 400px;
   }
 
-  {
-  .historia, .circulo, .personaje-fav, .tabla-contenedor, .contenedor-curiosidades, .seccion-aside {
+  
+  .historia, .circulo, .personaje-fav, .tabla-contenedor, .contenedor-curiosidades, .seccion-aside{
     width: 90%;
     padding: 15px;
     margin: 15px auto;
-  }
 }
 
   .galeria-grid {
