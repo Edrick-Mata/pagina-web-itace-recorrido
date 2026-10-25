@@ -132,6 +132,9 @@ body {
   width: 100%;
 }
 
+.historia video{
+  width: 100%;
+}
 .img-responsiva {
   max-width: 100%;
   height: auto;
