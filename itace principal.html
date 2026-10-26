@@ -279,10 +279,6 @@
         <!-- entrada a la escuela -->
         <div class="contenedor-curiosidades" id="instalaciones">
             <h2 align="center">Instalaciones de la escuela</h2>
-            <button class="btn-interactivo" onclick="toggleInformacion()" style="background-color: #7d4141; margin-bottom: 15px;">Mostrar dato curioso importante</button>
-            <div id="infoSecreta" style="display: none; background: #743c3c; padding: 15px; border-radius: 8px; margin-bottom: 20px;">
-                <p>La respiración del sol (Hinokami Kagura) es el estilo de respiración original del cual se derivan todos los demás estilos conocidos en el cuerpo de cazadores.</p>
-            </div>
 
             <ul class="lista-curiosidades">
                 <li>
@@ -781,9 +777,12 @@
                 <div class="galeria-item"><p>Prefectura</p><img src="imagenes/prefectura.jpeg" alt="area verde 13"></div>
             </div>
         </section>
-
-        <section class="historia" id="preguntas">
-            <h2>Preguntas frecuentes</h2>
+       
+        <h2 id="preguntas" style="color: white; text-align: center;">Preguntas frecuentes en la comunidad</h2>
+        <section class="historia">
+        <button class="btn-interactivo" onclick="toggleInformacion()" style="background-color: #7d4141; margin-bottom: 15px; margin: 0;">Preguntas frecuentes</button>
+            <div id="infoSecreta" style="display: none; background: #743c3c; padding: 15px; border-radius: 8px; margin-bottom: 20px;">
+                <section class="historia">
             <p>¿Qué especialidades se imparten en Reynosa?<br>
             Las carreras técnicas autorizadas para este plantel incluyen especialidades 
             tradicionales y de vanguardia: Ciberseguridad, Inteligencia Artificial, Semiconductores 
@@ -808,6 +807,8 @@
             para el trabajo (modelo ICAT). Está abierto a cualquier persona mayor de 15 años 
             que desee aprender un oficio corto (como informática, inglés o soldadura) sin necesidad 
             de cursar la preparatoria, otorgando constancias oficiales para el autoempleo.</p>
+            </section>
+            </div>
         </section>
 
         <section class="historia" id="contacto">
@@ -821,6 +822,7 @@
 
             <input type="button" class="btn-comenzar" value="Ubicacion del plantel" onclick="window.location.href='https://www.google.com/maps/place/ITACE/@26.0503792,-98.3358463,17z/data=!3m1!4b1!4m6!3m5!1s0x866505bc9978417d:0xec07cf36aa3b42b8!8m2!3d26.0503792!4d-98.3358463!16s%2Fg%2F11btlnnr0p?entry=ttu&g_ep=EgoyMDI2MTAxOS4wIKXMDSoASAFQAw%3D%3D'">
         </section>
+            </div>
     </main>
 
 
