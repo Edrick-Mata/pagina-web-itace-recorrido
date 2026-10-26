@@ -715,8 +715,20 @@
 
          <!-- directorio docente -->
          <section class="historia" id="directorio">
-         <h2>Directorio docente</h2>
-         </section>
+    <h2>Directorio Docente</h2>
+    <p>Consulta al personal docente del plantel, sus academias y las materias que imparten.</p>
+
+    <!-- Controles de búsqueda -->
+    <div style="display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 20px;">
+        <input type="text" id="buscadorDocente" placeholder="Buscar por nombre, materia o academia..." style="padding: 10px; flex: 1; border-radius: 6px; border: none; background: #fff; color: #000;">
+        <button class="btn-interactivo" onclick="limpiarBusqueda()" style="padding: 10px 20px;">Limpiar</button>
+    </div>
+
+    <!-- Contenedor responsivo donde se pintarán las tarjetas de los maestros -->
+    <div id="contenedor-docentes" class="contenedor-flex"></div>
+    
+    <p id="mensaje-sin-resultados" style="display: none; text-align: center;">No se encontraron docentes con esos criterios.</p>
+</section>
 
 <!-- identidad y orgullo itace -->
     <section class="historia" id="audio">
