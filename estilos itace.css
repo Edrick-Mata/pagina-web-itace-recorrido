@@ -14,6 +14,17 @@ body {
   font-family: Arial, sans-serif;
   overflow-x: hidden;
 }
+
+/* scroll para no tapar titulos*/
+section{
+scroll-margin-top: 80px;
+}
+
+h2{
+scroll-margin-top: 80px;
+}
+/*fin de seccion*/
+
  /*boton que redirige a las paginas*/
 .btn-comenzar {
             padding: 20px 40px; 
