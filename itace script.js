@@ -59,11 +59,11 @@ const listaDocentes = [
     },
     {
         nombre: "Erick Ramirez Solis",
-        academia: "Pensamiento matemático",
+        academia: "Matematicas",
         materias: "Pensamiento matemático",
         semestre: "1, 3 y 5",
-        avatar: "imagenes/sin-prof.png",
-        perfil: "21 años en el Itace con Lic. Ingeniería electrmecanuca y maestría en educación "
+        avatar: "imagenes/erik.jpeg",
+        perfil: "21 años en el Itace con Lic. Ingeniería Electromecánica y Maestría en Educación"
     },
     {
         nombre: "Grecia Ávalos Ramos",
@@ -232,14 +232,6 @@ const listaDocentes = [
         semestre: "1, 3 y 5",
         avatar: "imagenes/sin-prof.png",
         perfil: "Biólogo"
-    },
-    {
-        nombre: "Erik Ramírez Solís",
-        academia: "Matematicas",
-        materias: "Pensamiento Matematico",
-        semestre: "1, 3 y 5",
-        avatar: "imagenes/erik.jpeg",
-        perfil: "Licenciatura en Electromecánica y Maestría en Educación"
     },
     {
         nombre: "Mildred Yasmín Reyes Norberto",
