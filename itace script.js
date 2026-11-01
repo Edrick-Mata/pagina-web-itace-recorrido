@@ -70,7 +70,7 @@ const listaDocentes = [
         academia: "Docente, Lengua y comunicación ",
         materias: "Lengua y comunicación ",
         semestre: "1 y 3",
-        avatar: "imagenes/sin-prof.png",
+        avatar: "imagenes/grecia.jpeg",
         perfil: "3 años en el Itace con Lic y maestria"
     },
     {
@@ -102,7 +102,7 @@ const listaDocentes = [
         academia: "Informática, módulo de programación e inteligencia artificial y cultura digital ",
         materias: "Informática, módulo de programación e inteligencia artificial y cultura digital ",
         semestre: "1, 3 y 5",
-        avatar: "imagenes/sin-prof.png",
+        avatar: "imagenes/benjamin limon.jpeg",
         perfil: "5 años en el Itace con titulos en Administración en productividad y calidad. Maestría en educación "
     },
     {
