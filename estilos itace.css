@@ -192,6 +192,7 @@ font-size: xx-large;
   width: 400px;
   height: 300px;
   object-fit: cover;
+  overflow: hidden;
 }
 
 /* TARJETAS DE PERSONAJES */
