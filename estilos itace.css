@@ -189,8 +189,8 @@ font-size: xx-large;
   font-size: large;
 }
 .circulo img{
-  width: 400px;
-  height: 300px;
+  width: 300px;
+  height: auto;
   object-fit: cover;
   overflow: hidden;
 }
