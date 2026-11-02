@@ -51,7 +51,7 @@ font-size: xx-large;
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #414141;
+  background-color: #5b2e2e;
   z-index: 1000;
   display: flex;
   justify-content: flex-start;
@@ -60,7 +60,7 @@ font-size: xx-large;
   gap: 15px;
   overflow-x: auto; /* Permite deslizar horizontalmente en pantallas chicas */
   white-space: nowrap;
-  border-bottom: 2px solid #5b2e2e;
+  border-bottom: 2px solid #a35555;
 }
 
 /*menu de navegacion*/
@@ -461,7 +461,7 @@ footer {
   color: #ffffff;            
   padding: 30px 20px;        
   margin-top: 40px;          
-  border-top: 4px solid rgba(255, 0, 0, 0.773); 
+  border-top: 4px solid #a35555; 
 }
 
 .footer-contenido {
