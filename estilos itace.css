@@ -170,29 +170,18 @@ font-size: xx-large;
 }
 
 /* SECCIÓN CIRCULAR ADAPTABLE */
-.circulo {
-  width: 90%;
-  max-width: 850px;
-  min-height: 850px;
-  background-color: #5b2e2e;
-  border-radius: 50%;
-  margin: 40px auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding: 60px;
-  color: white;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
-  -webkit-text-stroke: 0.5px black;
-  font-size: large;
-}
-.circulo img{
-  width: 300px;
+.caja-rectangulo {
+width: 90%;
+  max-width: 1000px;
   height: auto;
-  object-fit: cover;
-  overflow: hidden;
+  background-color: #5b2e2e;
+  padding: 25px;
+  margin: 30px auto;
+  color: white;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+.caja-rectangulo img{
+  width: 100%;
 }
 
 /* TARJETAS DE PERSONAJES */
