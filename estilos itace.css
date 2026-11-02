@@ -191,6 +191,7 @@ font-size: xx-large;
 .circulo img{
   width: 400px;
   height: 300px;
+  object-fit: cover;
 }
 
 /* TARJETAS DE PERSONAJES */
