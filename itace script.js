@@ -134,7 +134,7 @@ const listaDocentes = [
         academia: "Informática",
         materias: "Cultura Digital, IA",
         semestre: "1 y 3",
-        avatar: "imagenes/sin-prof.png",
+        avatar: "imagenes/brenda.jpeg",
         perfil: "4 años en el Itace con titulos de Técnica en informática ,Ingeniera en sistemas computacionales y maestría en educación "
     },
     {
@@ -158,7 +158,7 @@ const listaDocentes = [
         academia: "Ciencias Naturales y Humanidades",
         materias: "Ciencias Naturales y Humanidades",
         semestre: "3 y 5",
-        avatar: "imagenes/sin-prof.png",
+        avatar: "imagenes/erika.jpeg",
         perfil: "Ingeniería Industrial en Sistemas y Maestría en Educación"
     },
     {
@@ -174,7 +174,7 @@ const listaDocentes = [
         academia: "Ciencias",
         materias: "Ciencias",
         semestre: "1, 3 y 5",
-        avatar: "imagenes/sin-prof.png",
+        avatar: "imagenes/laura.jpeg",
         perfil: "Bióloga, especializada en Física y Química"
     },
     {
@@ -190,7 +190,7 @@ const listaDocentes = [
         academia: "Ingles y Matematicas",
         materias: "Inglés y Temas Selectos de Matemáticas 2",
         semestre: "5",
-        avatar: "imagenes/sin-prof.png",
+        avatar: "imagenes/yuridia.jpeg",
         perfil: "Ingeniera Industrial, Licenciada en Matemáticas, Maestría en Educación e Innovación Educativa y actualmente estudia un Doctorado en Educación"
     },
     {
@@ -198,7 +198,7 @@ const listaDocentes = [
         academia: "Cultura digital",
         materias: "Programación y Cultura Digital, Club: Robótica, Cursos ICAT Excel",
         semestre: "1, 3 y 5",
-        avatar: "imagenes/sin-prof.png",
+        avatar: "imagenes/juan pablo.jpeg",
         perfil: "Licenciatura en Información Administrativa y Maestría en Ciencias de la Enseñanza"
     },
     {
@@ -222,7 +222,7 @@ const listaDocentes = [
         academia: "Ciencias",
         materias: "Ciencias Naturales 1, 3 y 5",
         semestre: "1, 3 y 5",
-        avatar: "imagenes/sin-prof.png",
+        avatar: "imagenes/ulises.jpeg",
         perfil: "Químico Farmacéutico Biólogo, con dos maestrías: Análisis Clínicos y Educación. Actualmente estudia un Doctorado en Educación"
     },
     {
@@ -230,7 +230,7 @@ const listaDocentes = [
         academia: "Ciencias",
         materias: "Ciencias Naturales, Experimentales y Tecnología 1, 3 y 5",
         semestre: "1, 3 y 5",
-        avatar: "imagenes/sin-prof.png",
+        avatar: "imagenes/trinidad.jpeg",
         perfil: "Biólogo"
     },
     {
@@ -238,8 +238,24 @@ const listaDocentes = [
         academia: "Matematicas",
         materias: "Temas Selectos de Matemáticas II",
         semestre: "5",
+        avatar: "imagenes/mildred.jpeg",
+        perfil: "Ingeniería Química y Maestría en Docencia"
+    },
+    {
+        nombre: "José López Vázquez",
+        academia: "Sin definir",
+        materias: "módulo mantenimiento industrial",
+        semestre: "3 y 5",
         avatar: "imagenes/sin-prof.png",
-        perfil: " Ingeniería Química y Maestría en Docencia"
+        perfil: " Ingeniería Industrial"
+    },
+    {
+        nombre: "Omar Saúl González Alatriste",
+        academia: "Prefecto",
+        materias: "Sin definir",
+        semestre: "3",
+        avatar: "imagenes/omar.jpeg",
+        perfil: "32 años en el ITACE"
     }
 ];
 
