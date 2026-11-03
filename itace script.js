@@ -150,7 +150,7 @@ const listaDocentes = [
         academia: "Ingles",
         materias: "Inglés",
         semestre: "5",
-        avatar: "imagenes/sin-prof.png",
+        avatar: "imagenes/gerardo.jpeg",
         perfil: "Licenciado en Contaduría"
     },
     {
