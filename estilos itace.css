@@ -64,14 +64,10 @@ font-size: xx-large;
 }
 
 /*menu de navegacion*/
-.menu-navegacion::-webkit-scrollbar {
+.menu-navegacion::-webkit-scrollbar { /*define la barra de desplazamiento como delgada con 4 px max*/
   height: 4px;
 }
 
-.menu-navegacion::-webkit-scrollbar-thumb {
-  background: #5b2e2e;
-  border-radius: 4px;
-}
 
 .menu-navegacion a {
   color: #fff;
