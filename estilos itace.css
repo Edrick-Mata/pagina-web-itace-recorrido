@@ -184,7 +184,7 @@ width: 90%;
   width: 100%;
 }
 
-/* TARJETAS DE PERSONAJES */
+/* TARJETAS */
 .contenedor-flex {
   display: flex;
   gap: 20px;
@@ -218,7 +218,7 @@ width: 90%;
   border-radius: 8px;
 }
 
-/* PERSONAJE FAVORITO */
+/* VINCULACION/CONTROL ESCOLAR/DIRECCION */
 .personaje-fav {
   width: 90%;
   max-width: 1200px;
@@ -273,12 +273,6 @@ width: 90%;
   width: 100%;
   border-radius: 8px;
   overflow: hidden;
-}
-
-.video-personaje-fav video {
-  width: 100%;
-  height: auto;
-  display: block;
 }
 
 /* GALERÍA DE FOTOS */
@@ -535,7 +529,5 @@ footer {
   width: 300px;
   height: 40px;
   border-radius: 30px;
-  /* Filtro opcional para invertir los colores y que combine con fondos oscuros */
-  filter: invert(90%) hue-rotate(180deg);
 }
 }
