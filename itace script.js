@@ -118,7 +118,7 @@ const listaDocentes = [
         academia: "Docente de ciencias naturales e it",
         materias: "Ciencias naturales e it",
         semestre: "1, 3 y 5",
-        avatar: "imagenes/sin-prof.png",
+        avatar: "imagenes/norma.jpeg",
         perfil: "26 años en el Itace con  Ing química y maestria en docencia"
     },
     {
@@ -166,7 +166,7 @@ const listaDocentes = [
         academia: "Pensamiento Filosófico, Ciencias Sociales y Estudios Literarios",
         materias: "Pensamiento Filosófico 1 y 3, Ciencias Sociales 1 y Estudios Literarios",
         semestre: "1 y 3",
-        avatar: "imagenes/sin-prof.png",
+        avatar: "imagenes/samuel.jpeg",
         perfil: "Licenciatura en Administración de Empresas y carrera técnica en Ebanistería"
     },
     {
@@ -182,7 +182,7 @@ const listaDocentes = [
         academia: "Lengua y comunicacion y Conciencia historica",
         materias: "Lengua y Comunicación 1 y 3; Conciencia Histórica 2. Modulo de Electrónica y Semiconductores",
         semestre: "1, 3 y 5",
-        avatar: "imagenes/sin-prof.png",
+        avatar: "imagenes/felipe.jpeg",
         perfil: "Ingeniería en Electrónica"
     },
     {
@@ -206,7 +206,7 @@ const listaDocentes = [
         academia: "Matematicas",
         materias: "Pensamiento Matemático 1 y 3",
         semestre: "1 y 3",
-        avatar: "imagenes/sin-prof.png",
+        avatar: "imagenes/romualdo.jpeg",
         perfil: "Mantenimiento Industrial y Mantenimiento en Instalaciones Petroleras"
     },
     {
@@ -246,7 +246,7 @@ const listaDocentes = [
         academia: "Sin definir",
         materias: "módulo mantenimiento industrial",
         semestre: "3 y 5",
-        avatar: "imagenes/sin-prof.png",
+        avatar: "imagenes/jose lopez.jpeg",
         perfil: " Ingeniería Industrial"
     },
     {
