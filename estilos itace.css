@@ -37,7 +37,7 @@ font-size: xx-large;
             border: 4px solid black;
             color: white;
             cursor: pointer;
-            transition: transform 0.2s, background-color 0.2s;
+            transition: transform 0.3s, background-color 0.2s;
         }
 
         .btn-comenzar:hover {
@@ -53,13 +53,13 @@ font-size: xx-large;
   width: 100%;
   background-color: #5b2e2e;
   z-index: 1000;
-  display: flex;
-  justify-content: flex-start;
+  display: flex; /* caja flexible*/
+   
   align-items: center;
   padding: 12px 10px;
   gap: 15px;
   overflow-x: auto; /* Permite deslizar horizontalmente en pantallas chicas */
-  white-space: nowrap;
+  white-space: nowrap; /*si la pantalla se vuelve estrecha evita que los elementos se vayan hacia abajo*/
   border-bottom: 2px solid #a35555;
 }
 
